@@ -1,0 +1,39 @@
+{
+  "name": "inverted-index",
+  "version": "1.0.0",
+  "description": "Inverted index for uploaded files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/gulp/bin/gulp",
+    "test": "node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-jare/inverted-index.git"
+  },
+  "author": "Jorg Are",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-jare/inverted-index/issues"
+  },
+  "homepage": "https://github.com/andela-jare/inverted-index#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.11.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-coveralls": "^1.1.2",
+    "karma-istanbul": "0.0.2",
+    "karma-jasmine": "^1.0.2"
+  }
+}

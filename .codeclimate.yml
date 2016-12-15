@@ -1,0 +1,18 @@
+engines: 
+  eslint:
+    enabled: true
+    channel: "eslint-3"
+    checks:
+      fatal:
+        enabled: false  
+ratings:
+   paths:
+   - "**.js"
+exclude_paths:
+  - "jasmine/"
+  - "spec/"
+  - "gulpfile.js"
+  - "lib/"
+  - "*.js"
+  - "coverage/"
+  - "src/app.js"

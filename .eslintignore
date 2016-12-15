@@ -1,0 +1,10 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore all except the app folder
+./jasmine/*.js
+jasmine/lib/jasmine-2.3.4/jasmine.js
+public/*
+./gulpfile.js
+./jasmine/lib
+./*.js
+./*.json
